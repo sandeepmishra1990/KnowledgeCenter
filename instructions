@@ -1,0 +1,8 @@
+return postmessagetoparent file in view from backend.
+call backend service from iframe usig front-end
+read the respnse from postmessage page to the parent page of angular
+@HostListener("window:message",['$event']) //
+public  readdatafromframe(evt)
+   {
+   
+   }
