@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+var userObject={token:"${data.token}",username:"${data.username}",region:"${data.region}"};
+var userObjectString=JSON.stringify(userObject);
+
+window.parent.postMessage(userObjectString,"*");
+alert("script");
+</script>
+</head>
+<body>
+username: ${data.username}
+region: ${data.region}
+token: ${data.token }
+</body>
+</html>
